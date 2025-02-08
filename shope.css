@@ -1,0 +1,743 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul li {
+    float: right;
+}
+
+#a1 {
+    margin-right: 120px;
+}
+
+
+ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #e47e09;
+}
+
+ul li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    color: #c9782c;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.main {
+    background-color: #4b4a4a;
+}
+
+.top {
+    background-color: #333;
+    position: relative;
+    padding: 100px;
+}
+
+hr {
+    color: #4b4a4a;
+}
+
+#aa {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: -40px;
+    margin-bottom: 80px;
+}
+
+#aaa {
+    color: #c9782c;
+    font-size: 14px;
+}
+
+#bb:hover {
+    color: rgb(53, 53, 250);
+    font-size: 14px;
+}
+
+#im {
+    margin-left: 150px;
+}
+
+#samp {
+    background-color: #c9782c;
+    color: white;
+    border-radius: 100%;
+    font-size: 18px;
+    height: 60px;
+    width: 60px;
+    margin-left: 350px;
+}
+
+#bbb {
+    margin-left: 50px;
+}
+
+
+
+#zz {
+    margin-top: 15px;
+    margin-left: 280px;
+    margin-right: 30px;
+
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+#z9 {
+    color: #c9782c;
+}
+
+li a,
+.dropbtn {
+    font-size: 14px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 45px 15px;
+    text-decoration: none;
+}
+
+li a,
+.dropbtn:hover {
+    color: #e47e09;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4b4a4a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #717171;
+    color: #e47e09;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#col {
+    column-count: 3;
+    column-gap: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+.slideshow-container {
+    max-width: 1410px;
+    position: relative;
+}
+
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 180px;
+    left: 50px;
+    width: 100%;
+}
+
+
+
+.active {
+    background-color: #717171;
+}
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 30s;
+}
+
+.text p {
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+.text h1 {
+    font-size: 40px;
+}
+
+.text a {
+    padding: 10px 10px;
+    background-color: #e47e09;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.text a:hover {
+    background-color: #4b4a4a;
+    color: white;
+}
+
+#aaaa {
+    color: #c9782c;
+}
+
+@keyframes fade {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+#image {
+    margin-top: -30px;
+    background-color: #333;
+}
+
+.bg1 {
+    float: left;
+    margin: 80px 15px;
+}
+
+#rel {
+    margin-left: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+#reli {
+    position: relative;
+    overflow: hidden;
+}
+
+#abs {
+    position: absolute;
+    top: 110px;
+    line-height: 30px;
+}
+
+#abs:hover {
+    transform: scale(1.2, 1.3);
+    transition: ease 1s;
+}
+
+#as:hover {
+    transform: scale(1.2, 1.3);
+    transition: ease 1s;
+}
+
+#abs p {
+    margin-left: 20px;
+    color: #f2f2f2;
+}
+
+#abs h3 {
+    margin-left: 20px;
+}
+
+#on {
+    background-color: #333;
+    padding-bottom: 50px;
+}
+
+#in {
+    margin-top: 50px;
+    text-decoration: none;
+    color: #c9782c;
+    margin-left: 450px;
+    background-color: transparent;
+    border: 2px solid #c9782c;
+    overflow: hidden;
+    padding: 15px 25px;
+    font-size: 20px;
+}
+
+#in:hover {
+    color: white;
+}
+
+
+#inn:hover {
+    color: #c9782c;
+}
+
+#inn {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #4b4a4a;
+    overflow: hidden;
+    background-color: transparent;
+    padding: 15px 25px;
+}
+
+#imm {
+    background-color: #333;
+}
+
+#iiii {
+    float: left;
+}
+
+
+div.polaroid {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 80px;
+    width: 15%;
+    height: auto;
+
+
+    /* box-shadow: 0 4px 8px 0 rgba(148, 148, 148, 0.2), 0 6px 20px 0 rgba(133, 105, 105, 0.19);*/
+    margin-bottom: 25px;
+}
+
+div.container {
+    color: white;
+    font-size: 14px;
+    padding: 20px 10px;
+    border-bottom: 1px solid gray;
+}
+
+.postive {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.postive:hover {
+    opacity: 1;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.polaroid:hover .middle {
+    opacity: 1;
+}
+
+.text11 {
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+
+
+/*.text11 .tooltiptext {
+    opacity: 0;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .text11 .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  
+  .text11:hover .tooltiptext {
+    opacity: 1;
+  }*/
+
+
+
+
+
+
+#inde {
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+#oooo:hover {
+    background: url(10.jpg);
+}
+
+#caps {
+    position: relative;
+}
+
+#lock {
+    position: absolute;
+    top: 180px;
+    left: 350px;
+}
+
+#lock:hover {
+    transform: scale(1.6, 1.5);
+    transition: ease 5s;
+}
+
+#p1 {
+    margin-top: 30px;
+    color: #c9782c;
+    font-size: 20px;
+    margin-left: 180px;
+}
+
+#lock {
+    color: white;
+    font-size: 30px;
+    font-family: serif;
+}
+
+#p2 {
+    margin-top: 30px;
+    font-size: 22px;
+    margin-left: 130px;
+    color: white;
+}
+
+#p3 {
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    width: 120px;
+    font-family: serif;
+    text-align: center;
+    padding: 10px 0px;
+    border: 2px solid #c9782c;
+    margin-left: 200px;
+}
+
+#some {
+    background-color: #333;
+    color: white;
+}
+
+#some h1 {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+
+div.gall {
+    margin: 5px;
+    float: left;
+    width: 320px;
+    margin-left: 50px;
+}
+
+
+div.gall img {
+    width: 100%;
+    height: auto;
+}
+
+div.descss {
+    padding: 10px;
+}
+
+div.descss p {
+    font-size: 12px;
+    align-items: center;
+}
+
+div.gall img:hover {
+    opacity: 0.5;
+}
+
+#amage4 {
+    margin-top: 80px;
+}
+
+#maxx {
+    padding-top: 50px;
+    background-color: #333;
+}
+
+#maxx div {
+    display: inline-block;
+}
+
+#immain {
+    position: relative;
+}
+
+#immmm {
+    opacity: 1;
+    display: block;
+    width: 220px;
+    height: 350px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+#imtx {
+    width: 100px;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+#immain:hover #immmm {
+    opacity: 0.3;
+}
+
+#immain:hover #imtx {
+    opacity: 1;
+}
+
+.immtext {
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+#maxxx {
+    padding-bottom: 80px;
+    padding-top: 40px;
+    background-color: #333;
+}
+
+#maxxx div {
+    display: inline-block;
+}
+
+#immainn {
+    position: relative;
+    margin-left: 30px;
+}
+
+#immainn img {
+    border-radius: 20px;
+}
+
+#immmmm {
+    opacity: 1;
+    display: block;
+    width: 620px;
+    height: 250px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+#imtxx {
+    width: 450px;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+#immainn:hover #immmmm {
+    opacity: 0.5;
+}
+
+#immainn:hover #imtxx {
+    opacity: 1;
+}
+
+.immtext {
+    color: white;
+}
+
+.immtext p {
+    font-size: 20px;
+}
+
+
+
+#red {
+    background-color: #333;
+    padding-bottom: 50px;
+}
+
+#gray {
+    float: left;
+}
+
+.gray {
+    color: rgb(250, 247, 247);
+    margin-left: 150px;
+    width: 380px;
+}
+
+.gray p {
+    line-height: 30px;
+    color: rgb(110, 110, 110);
+    font-size: 14px;
+}
+
+.gray1 {
+    color: rgb(250, 247, 247);
+    margin-left: 50px;
+    width: 200px;
+}
+
+.gray1 p {
+    line-height: 25px;
+    color: rgb(110, 110, 110);
+    font-size: 14px;
+}
+
+.gray2 {
+    color: rgb(250, 247, 247);
+    width: 200px;
+}
+
+.gray2 p {
+    line-height: 25px;
+    color: rgb(110, 110, 110);
+    font-size: 14px;
+}
+
+.gray3 {
+    color: rgb(250, 247, 247);
+    width: 350px;
+}
+
+.gray3 p {
+    line-height: 25px;
+    color: rgb(110, 110, 110);
+    font-size: 14px;
+}
+
+#las {
+    background-color: #333;
+    padding: 50px 0px;
+    color: white;
+    text-align: center;
+
+}
